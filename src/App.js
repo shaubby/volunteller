@@ -150,12 +150,15 @@ function App() {
     console.log(items);
     //setItems([]);
     setMounts(false);
+    const timer = setTimeout(() => {setItems([])}, 300);
 
   }
   const handleClick  = (e) => {
     setZipCode(e.target.value);
-    setItems([]);
+
     setMounts(true);
+    var blank = [];
+    setItems(blank);
     for (var i in db[zipCode]){
 
       var newArr = items;

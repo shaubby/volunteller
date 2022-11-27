@@ -47,6 +47,7 @@ export default function CardList({cardItems, mounteds}) {
       if(mounteds == false) {
         const timer = setTimeout(() => {
         setItems([])
+        
   }, 300);
       }
       console.log(items)
