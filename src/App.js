@@ -198,7 +198,7 @@ function App() {
             <Image src = "https://img.icons8.com/fluency/800/null/oak-leaf.png" boxSize = '400px'/>
           </Flex>
           <Grid  gap = {20} p = {20} px = {72} textAlign = "center">
-            <Heading size = '3xl' ><Highlight query="It's a 3 three step process"   styles={{px: '1', rounded: 'xl', py: '3', px: '8', bg: 'blue.100'}}>It's a 3 three step process</Highlight>
+            <Heading size = '3xl' ><Highlight query="It's a 3 three step process"   styles={{px: '1', rounded: 'xl', py: '3', px: '8', bg: 'blue.100'}}>It's a three step process</Highlight>
             </Heading>
             <Flex alignItems = "center">
 
